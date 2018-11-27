@@ -1,0 +1,16 @@
+{
+  "name": "native-addon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install": "node-gyp rebuild"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bindings": "latest",
+    "node-addon-api": "latest"
+  },
+  "gypfile": true
+}
